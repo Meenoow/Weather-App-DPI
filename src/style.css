@@ -5,10 +5,12 @@ body {
 
   .bg-image {
     max-width: 100%;
-    max-height: auto;
-    display: block;
+    max-height: 100%;
+    display: fixed;
     padding-left: 0;
     padding-right: 0;
+    align-items: center;
+    justify-content: center;
 }
   
   h1 {
@@ -54,7 +56,7 @@ body {
   }
   
   .units {
-    color: rgb(5, 5, 5);
+    color: white;
     position: relative;
     top: -34px;
     font-weight: bold;
