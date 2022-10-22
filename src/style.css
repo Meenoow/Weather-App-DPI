@@ -5,11 +5,10 @@ body {
 
   .bg-image {
     max-width: 100%;
-    max-height: 100%;
-    display: flex;
+    max-height: auto;
+    display: block;
     padding-left: 0;
     padding-right: 0;
-
 }
   
   h1 {
@@ -35,6 +34,11 @@ body {
     list-style: none;
     font-weight: bold;
   }
+
+  .container {
+    padding: 10px 20px;
+    margin: 20px auto;
+  }
   
   .weather-icon {
     height: 64px;
@@ -50,7 +54,7 @@ body {
   }
   
   .units {
-    color: white;
+    color: rgb(5, 5, 5);
     position: relative;
     top: -34px;
     font-weight: bold;
@@ -105,12 +109,10 @@ body {
  }
 
  .text-white {
-  padding: 30px 0;
+  padding: 0 0;
   margin: 20px auto;
   border-radius: 10px;
   max-width: 600px;
-  background-image: url(".firewatch.jpg");
-  background-size: cover;
 }
 
 
